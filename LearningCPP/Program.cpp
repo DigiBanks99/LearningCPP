@@ -15,9 +15,9 @@ void WriteHello()
   cout << "I'm a C++ program";
 }
 
-long long CalculateSize(int number, int power = 2)
+unsigned long CalculateSize(int number, int power = 2)
 {
-  long long total{ 1 };
+  unsigned long total{ 1 };
   if (number == 0)
     return 0;
 
